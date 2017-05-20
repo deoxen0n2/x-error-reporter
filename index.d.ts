@@ -13,14 +13,14 @@ export class RavenAdapter implements Adapter {
 }
 
 export interface ReporterOptions {
-  enabled: boolean
+  enabled?: boolean
 }
 
 export class Reporter {
   adapter: Adapter
   enabled: boolean
 
-  constructor (adapter: Adapter, options: ReporterOptions)
+  constructor (adapter: Adapter, options?: ReporterOptions)
 
   capture (error: Error, additionalData: any): Promise<any>
 }
