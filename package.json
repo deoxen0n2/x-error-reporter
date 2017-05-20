@@ -1,6 +1,6 @@
 {
   "name": "x-error-reporter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Generic error reporter",
   "main": "index.js",
   "repository": "https://github.com/deoxen0n2/x-error-reporter",
